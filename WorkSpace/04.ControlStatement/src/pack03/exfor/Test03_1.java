@@ -18,7 +18,7 @@ public static void main(String[] args) {
 			oddsum+=i;
 		}else {
 			
-			evensum=+i;
+			evensum+=i;
 		}
 		sum =sum+i;
 	}
