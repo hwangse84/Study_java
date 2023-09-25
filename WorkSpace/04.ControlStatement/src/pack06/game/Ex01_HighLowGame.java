@@ -18,7 +18,6 @@ public class Ex01_HighLowGame {
 			String str = sc.nextLine();
 			
 			
-
 			start = Integer.parseInt(str);
 			if (start == 2) {
 				System.out.println("game start");
@@ -32,6 +31,7 @@ public class Ex01_HighLowGame {
 		
 		int randomNumber = random.nextInt(100) + 1;
 		System.out.println(randomNumber);
+
 		while (start == 2) {
 			
 			
