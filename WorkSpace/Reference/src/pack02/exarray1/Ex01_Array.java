@@ -25,7 +25,7 @@ public static void main(String[] args) {
 	//배열의 크기가 n이 주어졌을떄 배열의 인덱스는 0~n-1까지를 의미함(4...0~3(4-1)
 	System.out.println(intArr);//[]I@3D012DDD <=힙의 어드레스주소[우리한테 없는것]
 	int num=1;
-	intArr[0]=num;//intArr[]indx]==배열의 타입 변수와 같다.
+	intArr[0]=num;//intArr[]index]==배열의 타입 변수와 같다.
 	intArr[1]=2;
 	intArr[2]=3;
 	intArr[3]=4;

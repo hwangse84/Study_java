@@ -1,29 +1,41 @@
 package pack02.exarray1;
 
 public class Ex02_1ex {
-public static void main(String[] args) {
-	int num=1;
-	int[] as=new int[9];
-	//2x1=2
-	//2x2=4
-	//2x3=6
-	//2x4=8
-	//2x5=10
-	//2x6=12
-	//2x7=14
-	//2x8=16
-	//2x9=18
-	//as[0]=2;
-	//as[1]=4;
-	//as[2]=6;
-	//as[3]=8;
-	//as[4]=10;
-	//as[5]=12;
-	System.out.println(as.length);
-	for(int i=0;i<as.length;i++) {
-		
-		System.out.println(as.length);
+	public static void main(String[] args) {
+
+		int[] as = new int[9];
+
+		// as[0]=2;
+		// as[1]=4;
+		// as[2]=6;
+		// as[3]=8;
+		// as[4]=10;
+		// as[5]=12;
+		// System.ㅇout.println(as.length);
+		for (int i = 0; i < as.length; i++) {
+			as[i] = (i + 1) * 2;
+			System.out.println(as[i]);
+
+		}
+
+		String[] starArr = new String[5];
+		for (int i = 0; i < starArr.length; i++) {
+
+			if (i == 0) {
+
+				starArr[i] = "★";
+			} else {
+				starArr[i] = starArr[i - 1] + "★";
+
+			}
+		}
+		System.out.println("★");
+		for (int i = 0; i < starArr.length; i++) {
+			String star = "";
+			for (int j = 1; j < starArr.length; j++) {
+				star += "★";
+			}
+			starArr[i-1] = star;
+		}
 	}
-	
-}
 }

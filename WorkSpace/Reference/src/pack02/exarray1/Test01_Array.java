@@ -15,7 +15,8 @@ public static void main(String[] args) {
 	int sum=0;
 	for(int i=0; i<intArray.length;i++) {
 		//num0=i;
-		intArray[i] =i;
+		intArray[i] =i;  // inta 0-> 0
+		//in 0 0 in 1 1 in 2 2 in3 3
 	
 		//syso(num0);
 		sum+=intArray[i];

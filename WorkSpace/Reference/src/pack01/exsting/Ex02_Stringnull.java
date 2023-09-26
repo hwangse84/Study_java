@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	int a=1;
 	String b="B";
 	// 기본형 데이터타입 VS 참조형 타임차이점???
-	//스택이라는 메모리에 바로 값이 저장되는 경우 VS 스잭에는 힙 메모리 번지수가 저장되고 실제 값이  힙에 저장되는지?
+	//스택이라는 메모리에 바로 값이 저장되는 경우 VS 스택에는 힙 메모리 번지수가 저장되고 실제 값이  힙에 저장되는지?
 	// 앞글자가 대문자로 시작했는지?
 	//String str1=null;// 참조형 데이터타입이 stack에 참조를 시작하지 않음을 표시함
 	//객체(object) : 참조형 데이터 타입은 모두 참조를 시작해야만, 내부에 있는 기능이나 값을 이용할 수가 있다.
@@ -18,4 +18,4 @@ public static void main(String[] args) {
 	//if(sc!=null) {
 	//sc.nextLine();
     }
-}}
+}
