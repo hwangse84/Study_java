@@ -33,8 +33,9 @@ public static void main(String[] args) {
 		  	
 			if(i==numbers[j]) {
 				tempArray[i]=1;
+				
 			}
-				System.out.println(tempArray);
+				
 		}
 		
 		
