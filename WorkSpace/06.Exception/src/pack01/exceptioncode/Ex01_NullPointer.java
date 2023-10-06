@@ -9,10 +9,10 @@ public static void main(String[] args) {
 	String strs=null;
 	Scanner scan=null;
 	if(scan!=null) {
-		scan.nextLine();
+	scan.nextLine();
 	
 	}
-	//NullPointException은빈ㅂ번하게  방생한다 -> 회피방법간단
+	//NullPointException은빈번하게  방생한다 -> 회피방법간단
 	//객체를 사용할때 null 이 아닌 상태에서만 쓰게끔 만들면 된다.
 	//제어문을 활용하면 된다
 	if(strs !=null) {

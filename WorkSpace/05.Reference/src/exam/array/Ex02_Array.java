@@ -10,6 +10,7 @@ public class Ex02_Array {
 		Arrays.sort(array);//java8버전 이상만 가능하면 java외에 언어에서는 없는 경우있음
 		System.out.println("정렬:"+ Arrays.toString(array));
 		
-		
+		//Arrays.sort(); 
+//		System.out.println(Arrays.toString());
 	}
 }
