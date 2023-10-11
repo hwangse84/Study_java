@@ -42,8 +42,8 @@ public class Car {
 	//뭐지 내가 필요한것 리턴할수있다.
 	//void가 아닌 경우에는 주어진 리턴타입을 반드시 "반환해줄것"->return
 	public int rtnmethod1() {
-		//int result = 1;
-		//return result;
+//		int result = 1;
+//		return result;
 		System.out.println("rtnMethod");
 		return 1;
 	}

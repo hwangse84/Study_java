@@ -21,8 +21,9 @@ public class Calculater {
 
         //  3.mul   <- 두수의 곱하기를 메소드 호출부로 반화해주는 메소드 ->출력은 계산기 메인에서 함
 	public int mul(int num1, int num2) {
-			int result = num1*num2;
-			return result;
+//			int result = num1*num2;
+//			return result;
+			return (int)num1*num2;
 		}
 
             //  4. div   <- 두수의 나누기를 메소드 호출부로 반화해주는 메소드 ->출력은 계산기 메인에서 함
