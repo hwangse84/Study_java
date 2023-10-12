@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class MemberMain {
 public static void main(String[] args) {
 	
+
 	Scanner scan = new Scanner(System.in);// IO
 	MemberDTO dto= new MemberDTO();
 	
 	dto.id = scan.nextLine();
 	dto.pw = scan.nextLine();
 	//
-	
+
 	MemberDAO dao= new MemberDAO ();
 	if(dao.login(dto)==1) {
 		System.out.println("화면이동");

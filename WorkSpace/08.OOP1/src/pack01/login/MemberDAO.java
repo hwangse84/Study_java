@@ -9,9 +9,9 @@ public class MemberDAO {
 	//1.login  <--MemberDTO:내부에 있는 (데이터 기준)데이터 포맷을 지정할 수있다
 	
 	//2. login성공여부를 MemberMain클래스가 알수있게 코딩해보기! 
-	public int login(MemberDTO dto) {
+public int login(MemberDTO dto) {
 		
-		int num =10;
+		//int num =10;
 		
 		if(dto.id.equals("admin") && dto.pw.equals("admin1234")) {
 			System.out.println("로그인되었습니다.");
@@ -23,9 +23,9 @@ public class MemberDAO {
 		}
 		return 0;
 		
-	}
-}
 
+}
+}
 
 
 
