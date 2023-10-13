@@ -1,47 +1,28 @@
 package pack_test;
 
 public class ProductAdminDTO {
-	public String getProdutdata() {
-		return produtdata;
-	}
+// 상품 정보, 순번, 이름, 가격, 구매 횟수
+   private String id, pw;
 
-	public void setProdutdata(String produtdata) {
-		this.produtdata = produtdata;
-	}
+   public ProductAdminDTO(String id, String pw) {
+      this.id = id;
+      this.pw = pw;
+   }
 
-	public String getProdutnumber() {
-		return produtnumber;
-	}
+   public String getId() {
+      return id;
+   }
 
-	public void setProdutnumber(String produtnumber) {
-		this.produtnumber = produtnumber;
-	}
+   public void setId(String id) {
+      this.id = id;
+   }
 
-	public String getProductname() {
-		return productname;
-	}
+   public String getPw() {
+      return pw;
+   }
 
-	public void setProductname(String productname) {
-		this.productname = productname;
-	}
-
-	public String getProductprice() {
-		return productprice;
-	}
-
-	public void setProductprice(String productprice) {
-		this.productprice = productprice;
-	}
-
-	public String getSv() {
-		return sv;
-	}
-
-	public void setSv(String sv) {
-		this.sv = sv;
-	}
-
-	// 상품 정보, 순번, 이름, 가격, 구매 횟수
-	String produtdata,produtnumber,productname,productprice, sv; //sv:판매량
-	
+   public void setPw(String pw) {
+      this.pw = pw;
+   }
+   
 }
