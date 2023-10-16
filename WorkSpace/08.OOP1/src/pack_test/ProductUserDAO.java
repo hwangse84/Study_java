@@ -91,17 +91,19 @@ public class ProductUserDAO {
 		}
 	}
 	
-	public ProductUserDTO dataChangeTel(ProductUserDTO userDto) {
+	public ProductUserDTO dataChangeTel(ProductUserDTO userDto) {전화번호변경
 		System.out.println("전화번호를 입력해주세요");
 		userDto.setTel(sc.nextLine());
+		
+		
 		return userDto;
 	}
-	public ProductUserDTO dataChangeAdress(ProductUserDTO userDto) {
+	public ProductUserDTO dataChangeAdress(ProductUserDTO userDto) {//주소변경
 		System.out.println("주소를 입력해주세요");
 		userDto.setAdress(sc.nextLine());
 		return userDto;
 	}
-	public ProductUserDTO dataChangeEmail(ProductUserDTO userDto) {
+	public ProductUserDTO dataChangeEmail(ProductUserDTO userDto) {//이메일변경
 		System.out.println("이메일을 입력해주세요");
 		userDto.setEmail(sc.nextLine());
 		return userDto;
