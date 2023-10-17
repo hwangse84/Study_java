@@ -13,6 +13,7 @@ public class ProductDAO {
 	public void addItem() {
 		displayItems();
 		System.out.println("가격 입력 엔터, 수량 입력 엔터, 상품명 입력 엔터");
+		
 		ProductDTO newDto =new ProductDTO(common.getIntScanner(100), 
 				common.getIntScanner(0),common.getStrScanner(0));
 		
