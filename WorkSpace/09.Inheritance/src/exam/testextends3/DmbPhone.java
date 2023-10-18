@@ -5,9 +5,9 @@ public class DmbPhone extends CellPhone{
 	int channel;
 	
 	
-	public DmbPhone(String model , String color, int channel) {
+	public DmbPhone(String model , String color, int channela) {
 		super(color, model);
-		this.channel=channel;
+		this.channel=channela;
 //		this.color=color;
 //		this.model=model;
 	}
@@ -20,8 +20,8 @@ public class DmbPhone extends CellPhone{
 		
 	}
 	
-	public void changeChannel(int channel) {
-		this.channel=channel;
+	public void changeChannel(int channeld) {
+		this.channel=channeld;
 		System.out.println(channel +"로 변경");
 	}
 }
