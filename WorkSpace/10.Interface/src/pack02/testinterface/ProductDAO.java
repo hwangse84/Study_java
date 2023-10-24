@@ -26,7 +26,7 @@ public class ProductDAO implements ProductInterface{
 	public void dispaly(ProductDTO[] dtos) {
 		System.out.println(COMPANY_NAME);
 		for(int i =0; i<dtos.length; i++) {
-		System.out.println(dtos[0].getNum()+"."+dtos[0].getName()+""+dtos[0].getPrice());
+		System.out.println(dtos[i].getNum()+"."+dtos[i].getName()+""+dtos[i].getPrice());
 	
 		}
 	}
