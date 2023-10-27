@@ -28,7 +28,7 @@ public class HorseGame extends Thread {
 			System.out.println("게임이 시작되었습니다.");
 
 			for (int i = 0; i <= 100; i++) {
-				if (numberA || numberB || numberC == 100) {
+				//if (numberA || numberB || numberC == 100) {
 
 					return;
 					try {
