@@ -1,6 +1,8 @@
 package pack01.exif;
 
 public class Ex01_If {
+private static char[] if_var1;
+
 public static void main(String[] args) {
 	
 	//main메소드(함수, 기능)
@@ -25,6 +27,7 @@ public static void main(String[] args) {
 				System.out.println("전교1등 + of_var1+if_var2");
 		}
 		 
+		char[] if_var2 = null;
 		System.out.println(if_var2);//if지역밖에서  사용불가
 	}
 	

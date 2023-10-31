@@ -13,7 +13,7 @@ public class Test01_If {
 		}
 
 		if (num % 2 == 1)
-			System.out.println("해당숫자" + num + "은 짝수입니다");
+			System.out.println("해당숫자" + num + "은 홀수입니다");
 
 	}
 }
