@@ -17,7 +17,7 @@ class TestMemberDAO {
 	void connTest() {
 		MemberDAO dao = new MemberDAO();
 		assertTrue(dao.isConnection());
-		// dao.checkConnection();
+		 //dao.checkConnection();
 	}
 	@DisplayName("멤버테이블 조회")
 	@Test
