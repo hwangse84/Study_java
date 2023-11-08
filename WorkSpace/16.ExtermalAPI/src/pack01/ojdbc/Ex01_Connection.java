@@ -36,7 +36,9 @@ String sql ="SELECT ID,PW FROM MEMBER WHERE ID= ? AND PW = ?";
 			String password = "0000";
 
 			Connection conn = DriverManager.getConnection(url, user, password);
-			PreparedStatement ps = conn.prepareStatement("SELECT ID,PW FROM MEMBER WHERE ID ='admin'and pw ='admin1234'");
+			PreparedStatement ps = conn.prepareStatement("SELECT ID,PW FROM MEMBER WHERE ID= ? AND PW = ?");
+			
+			
 			ps.setString(1, id);//
 			ps.setString(2, pw);//
 			ResultSet rs = ps.executeQuery();// 오라클에서는 반드시 숫자는1부티!
